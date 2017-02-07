@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/build_promotion_gem'
+
+BuildPromotionGem::Deploy.new

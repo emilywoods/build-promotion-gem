@@ -6,12 +6,11 @@ require 'build_promotion_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "build_promotion_gem"
   spec.version       = BuildPromotionGem::VERSION
-  spec.authors       = ["Emily"]
+  spec.authors       = ["Emily Woods"]
   spec.email         = ["emily.woods@theappbusiness.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com"
+  spec.summary       = %q{Build promotion tool for updating and applying git tags}
+  spec.homepage      = "https://github.com/KITSTABEmilyWoods/build-promotion-gem"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

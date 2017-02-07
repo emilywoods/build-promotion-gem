@@ -1,5 +1,5 @@
 require "build_promotion_gem/version"
-require_relative "build_promotion_gem/config"
+require_relative "./build_promotion_gem/config.rb"
 require_relative './build_promotion_gem/controller/deploy_controller'
 
 module BuildPromotionGem
