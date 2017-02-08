@@ -1,4 +1,4 @@
-# BuildPromotionGem
+# BuildPromotionTool
 
 The purpose of this tool is to automate semantic versioning updates to git tags. It will update the tag version number depending on the type of tag to be applied. The types of tags which can be applied are outlined in the config.yml file. A remote repository must exist in order to fetch all tags and to push new tags to the remote repository.
 
@@ -11,7 +11,7 @@ To apply a **later tag type (such as stage or test)**, a tag of the preceding ta
 Add the following line to your application's Gemfile:
 
 ```ruby
-gem 'build_promotion_gem'
+gem 'build_promotion_tool'
 ```
 
 And then execute:
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it as:
 
-    $ gem install build_promotion_gem
+    $ gem install build_promotion_tool
 
 ## Usage
 

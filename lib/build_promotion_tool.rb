@@ -1,8 +1,8 @@
-require "build_promotion_gem/version"
-require_relative "./build_promotion_gem/config.rb"
-require_relative './build_promotion_gem/controller/deploy_controller'
+require "build_promotion_tool/version"
+require_relative "./build_promotion_tool/config.rb"
+require_relative './build_promotion_tool/controller/deploy_controller'
 
-module BuildPromotionGem
+module BuildPromotionTool
   class Deploy
     include Config
 

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'build_promotion_gem/version'
+require 'build_promotion_tool/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "build_promotion_gem"
-  spec.version       = BuildPromotionGem::VERSION
+  spec.name          = "build_promotion_tool"
+  spec.version       = BuildPromotionTool::VERSION
   spec.authors       = ["Emily Woods"]
   spec.email         = ["emily.woods@theappbusiness.com"]
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "build_promotion_gem"
+require "build_promotion_tool"
 
 require "irb"
 IRB.start(__FILE__)
