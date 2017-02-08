@@ -1,4 +1,4 @@
-require "build_promotion_tool/version"
+require_relative "./build_promotion_tool/version"
 require_relative "./build_promotion_tool/config.rb"
 require_relative './build_promotion_tool/controller/deploy_controller'
 

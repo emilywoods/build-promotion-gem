@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
   spec.executables   = ["deploy"]
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["."]
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
