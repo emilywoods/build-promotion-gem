@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require './lib/build_promotion_tool'
+require_relative '../lib/build_promotion_tool'
 
 BuildPromotionTool::Deploy.new
